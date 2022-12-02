@@ -1,0 +1,5 @@
+def scan(face):
+    face.scan()
+    time.sleep(2) 
+    return face.scan_results()
+    
